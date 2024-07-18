@@ -8,22 +8,6 @@ int main() {
 
 	sf::RenderWindow window(sf::VideoMode(width, height), "KOTOK");
 
-	// ================================= Screen bounds =================================
-	//std::vector<sf::RectangleShape> bounds;
-
-	//bounds.push_back(sf::RectangleShape(sf::Vector2f(width, 1)));
-	//bounds.push_back(sf::RectangleShape(sf::Vector2f(width, 1)));
-	//bounds.push_back(sf::RectangleShape(sf::Vector2f(1, height)));
-	//bounds.push_back(sf::RectangleShape(sf::Vector2f(1, height)));
-
-	//bounds[0].setPosition(0, 0);
-	//bounds[1].setPosition(0, height - 1);
-	//bounds[2].setPosition(0, 0);
-	//bounds[3].setPosition(width - 1, 0);
-
-	//for (auto& bound : bounds)	bound.setFillColor(sf::Color::Red);
-	// ================================= ============= =================================
-
 	while (window.isOpen()) {
 
 		sf::Event e;
